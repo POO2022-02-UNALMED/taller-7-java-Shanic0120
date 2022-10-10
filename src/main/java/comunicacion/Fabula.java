@@ -12,13 +12,13 @@ public class Fabula extends Escrito {
 	}
 
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
 		return palabrasPagina * 1 * this.getPaginas();
 	}
 
 	@Override
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return getInterpretacion();
 	}

@@ -19,7 +19,7 @@ public class Alfabeto extends Pictograma {
 		return letras.size();
 	}
 
-	String interpretacion() {
+	public String interpretacion() {
 		// TODO Auto-generated method stub
 		return getInterpretacion();
 	}
