@@ -18,7 +18,7 @@ public class Libro extends Escrito {
 	@Override
 	int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return palabrasPagina * 2;
+		return palabrasPagina * 2 * this.getPaginas();
 	}
 
 	@Override
