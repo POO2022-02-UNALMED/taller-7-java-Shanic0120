@@ -17,21 +17,18 @@ public class Libro extends Escrito {
 
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
-		// TODO Auto-generated method stub
 		return palabrasPagina * 2 * this.getPaginas();
 	}
 
 	@Override
 	public String interpretacion() {
-		// TODO Auto-generated method stub
 		return getInterpretacion();
 	}
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n"
-				+ this.co_autor + "\n" + this.editorial + "\n" + this.edicion;
+				+ this.getCo_autor() + "\n" + this.getEditorial() + "\n" + this.getEdicion();
 	}
 
 	public String getCo_autor() {
